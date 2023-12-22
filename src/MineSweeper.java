@@ -27,7 +27,7 @@ public class MineSweeper {
 
         while (!gameOver) {
             printBoard();
-            System.out.print("Satır ve sütun girin (örnek: 1 2): ");
+            System.out.print("Satır ve Sütun girin (örnek: 1 2): ");
             int row = scanner.nextInt() - 1;
             int col = scanner.nextInt() - 1;
 
