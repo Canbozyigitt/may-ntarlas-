@@ -48,7 +48,7 @@ public class MineSweeper {
                     }
                 }
             } else {
-                System.out.println("Geçersiz hamle. Lütfen tekrar deneyin.");
+                System.out.println("Geçersiz hamle. Lütfen tekrar deneyin...");
             }
         }
 
