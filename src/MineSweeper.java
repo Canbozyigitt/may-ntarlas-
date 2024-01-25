@@ -36,7 +36,7 @@ public class MineSweeper {
                     gameOver = true;
                     revealMines();
                     printBoard();
-                    System.out.println("Mayına bastınız! Oyun bitti.");
+                    System.out.println("Mayına bastınız! Oyun bitti...");
                 } else {
                     revealCell(row, col);
                     remainingCells--;
